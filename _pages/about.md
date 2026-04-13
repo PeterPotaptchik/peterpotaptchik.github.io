@@ -21,7 +21,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a DPhil student in the Department of Statistics at the University of Oxford, advised by [George Deligiannidis](https://www.stats.ox.ac.uk/~deligian/), [Saifuddin Syed](https://www.saifsyed.com/), and [Yee Whye Teh](https://www.stats.ox.ac.uk/~teh/). I'm currently based at Harvard University as a Visiting Fellow, working with [Michael Albergo](https://malbergo.me/).
+I'm a DPhil student at the University of Oxford, advised by [Yee Whye Teh](https://www.stats.ox.ac.uk/~teh/). I'm currently based at Harvard University as a Fellow, working with [Michael Albergo](https://malbergo.me/).
+
+<!-- [George Deligiannidis](https://www.stats.ox.ac.uk/~deligian/), [Saifuddin Syed](https://www.saifsyed.com/), and -->
 
 My research is supported by a [Google PhD Fellowship](https://research.google/programs-and-events/phd-fellowship/recipients/), an [NSERC](https://www.nserc-crsng.gc.ca/index_eng.asp) Postgraduate Scholarship, and the [EPSRC StatML CDT](https://www.ox.ac.uk/admissions/graduate/courses/statistics-machine-learning).
 
