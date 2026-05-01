@@ -362,11 +362,29 @@
       margin-right: 10px;
     }
 
-    .paper-spotlight {
+    .paper-title-row {
+      display: flex;
+      align-items: baseline;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .paper-title-row .paper-title {
+      display: inline;
+    }
+
+    .paper-badge {
+      display: inline-block;
+      padding: 0.08rem 0.38rem;
+      border: 1px solid rgba(198, 40, 40, 0.3);
+      border-radius: 0.28rem;
       color: #c62828;
+      background: rgba(198, 40, 40, 0.035);
+      font-size: 0.68rem;
       font-weight: 700;
-      letter-spacing: 0.08em;
-      margin-right: 0.45rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      white-space: nowrap;
     }
 
     .me {
@@ -635,8 +653,11 @@
       </li>
 
       <li>
-        <a class="paper-title" href="https://arxiv.org/abs/2512.21829" target="_blank" rel="noopener noreferrer">Tilt Matching for Scalable Sampling and Fine-Tuning</a>
-        <div class="paper-meta"><span class="paper-venue">ICML · 2026</span><span class="paper-spotlight">· SPOTLIGHT</span><span class="me">Peter Potaptchik</span>, Cheuk-Kit Lee, Michael S. Albergo</div>
+        <div class="paper-title-row">
+          <a class="paper-title" href="https://arxiv.org/abs/2512.21829" target="_blank" rel="noopener noreferrer">Tilt Matching for Scalable Sampling and Fine-Tuning</a>
+          <span class="paper-badge">Spotlight</span>
+        </div>
+        <div class="paper-meta"><span class="paper-venue">ICML · 2026</span><span class="me">Peter Potaptchik</span>, Cheuk-Kit Lee, Michael S. Albergo</div>
         <div class="paper-links">
           <a href="https://arxiv.org/abs/2512.21829" target="_blank" rel="noopener noreferrer">arXiv</a>
           <button class="abs-toggle" onclick="this.closest('li').classList.toggle('open')">Abs</button>
